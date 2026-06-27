@@ -8,3 +8,8 @@ spring:
     enabled: true
     baseline-on-migrate: true
     locations: classpath:migrations
+
+app:
+  jwt:
+    secret: 3044130a4118014a6f6bcae003e12e06be13c425a791f6e77c8c799a40af7b7a
+    expiration: 86400000
